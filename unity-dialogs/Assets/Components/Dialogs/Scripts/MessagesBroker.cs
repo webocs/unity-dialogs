@@ -10,6 +10,7 @@ namespace Wbx.Dialogs
         private MessagesQueue messagesQueue;
         private List<Talker> registeredTalkers;
         [SerializeField] private float defaultMessageFeedTime;
+        [SerializeField] private Toast toast;
         private void Awake()
         {
             messagesQueue = new MessagesQueue();
